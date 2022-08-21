@@ -270,3 +270,29 @@ legend{
 .list4{
     background-color: #f74770;
 }
+
+
+
+.featuredbox{
+    margin-bottom: 175px;
+}
+.featuredbox__welcometext{
+    margin: 110px 0;
+}
+.featuredbox__title{
+    text-align: center;
+}
+.featuredbox__text{
+text-align: center;
+}
+.featuredbox__row{
+    display: flex;
+    flex-wrap: wrap; 
+
+}
+.featuredbox__content{
+    width: 360px;
+    height: 358px;
+    flex-basis: 33.333333%;
+    margin: 10px 0; 
+}
