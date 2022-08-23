@@ -513,9 +513,6 @@ text-align: center;
 .clients__welcometext{
     text-align: center;
 }
-.clients__title{
-
-}
 .clients__text{
     margin-top: 10px;
 }
@@ -591,9 +588,6 @@ text-align: center;
     text-align: center;
     margin-bottom: 30px;
 }
-.clients__paragraph{
-
-}
 .review__rating{
     display: inline-block;
 	font-size: 0;
@@ -638,4 +632,20 @@ text-align: center;
     background-color: #e0e0e0;
     border-radius: 2.5px;
     margin: 0 5px;
+}
+
+
+
+.contact{
+    background-color: #fbfbfb;
+}
+.contact__socialnetwork{
+    margin: 75px 0 80px 0;
+    display: flex;
+}
+.contact__socialnetwork img{
+    width: 134px;
+    height: 33px;
+    opacity: 0.2;
+    margin: 0 20px 0 40px;
 }
