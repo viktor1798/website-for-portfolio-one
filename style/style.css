@@ -273,6 +273,7 @@ legend{
 
 
 .featuredbox{
+    background-color: #fbfbfb;
     margin-bottom: 175px;
 }
 .featuredbox__welcometext{
@@ -371,7 +372,7 @@ text-align: center;
 
 .teambox{
     background-color: #fbfbfb;
-    margin: 0 0 150px 0;
+    height: 964px;
 }
 .teambox__welcometext{
     text-align: center;
@@ -502,4 +503,139 @@ text-align: center;
     height: 4px;
     background: linear-gradient(to right, #ff6e47 78%, #817f7e 22%);
     border-radius: 1.5px;
+}
+
+
+
+.clients{
+    margin: 138px 0 145px ;
+}
+.clients__welcometext{
+    text-align: center;
+}
+.clients__title{
+
+}
+.clients__text{
+    margin-top: 10px;
+}
+.clients__colum{
+    display: flex;
+    justify-content: space-around;
+    margin: 140px 0 0 0  ;
+}
+.clients__leftarrow{
+    width: 48px;
+    height: 48px;
+    background-color: #ffffff;
+    box-shadow: 1px 3px 14px 0px rgba(20,20,21,0.07);
+    border-radius: 50%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    position: relative;
+    left: 45px;
+    margin-top: 120px;
+    
+}
+.clients__rightarrow{
+    width: 48px;
+    height: 48px;
+    background-color: #ff6e47;
+    box-shadow: 1px 3px 14px 0px rgba(20,20,21,0.28);
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+    right: 45px;
+    margin-top: 120px;
+}
+.clients__review{
+    width: 537px;
+    height: 271px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 27px 0px rgba(20,20,21,0.09);
+    border-radius: 1px;
+    margin: 0 35px;
+    
+}
+.review__img{
+    position: relative;
+    bottom: 47.5px;
+    margin-left: 175px;
+}
+.review__text{
+    opacity: 0.7;
+    font-family: 'Source Sans Pro';
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0 45px 20px 45px;
+}
+.review__clientname{
+    font-family: 'Source Sans Pro - It';
+    font-weight: 400;
+    text-align: center;
+}
+.review__name{
+    opacity: 0.8;
+    font-family: 'Source Sans Pro';
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.clients__paragraph{
+
+}
+.review__rating{
+    display: inline-block;
+	font-size: 0;
+    margin: 0 0 20px 180px;
+   
+}
+.review__rating span{
+    padding: 0;
+	font-size: 20px;
+	line-height: 1;
+	color: lightgrey;
+    
+}
+.review__rating > span:before{
+    content: '★';
+}
+.review__rating > span.rating__active{
+    color: gold;
+}
+.clients__paragraph{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.paragraph1{
+    width: 18px;
+    height: 6px;
+    background-color: #ff6e47;
+    border-radius: 2.5px;
+    margin: 0 5px;
+}
+.paragraph2{
+    width: 18px;
+    height: 6px;
+    background-color: #e0e0e0;
+    border-radius: 2.5px;
+    margin: 0 5px;
+}
+.paragraph3{
+    width: 18px;
+    height: 6px;
+    background-color: #e0e0e0;
+    border-radius: 2.5px;
+    margin: 0 5px;
 }
