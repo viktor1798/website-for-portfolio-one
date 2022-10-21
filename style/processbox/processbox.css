@@ -1,0 +1,91 @@
+.processbox{
+    background-color: #ffffff;
+}
+.processbox__welcometext{
+    margin: 110px 0;
+}
+.processbox__title{
+    text-align: center;
+}
+.processbox__text p{
+    text-align: center;
+    margin-top: 10px;
+
+}
+.processbox__colum{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 155px;
+}
+.processbox__processlist{
+    width: 262px;
+    height: 263px;
+}
+.processbox__img{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.processbox__text{
+    opacity: 0.74;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+.processbox__titleinfo{
+    margin: 15px 0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 42px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    opacity: 0.9;
+}
+.processbox__textinfo p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.processbox__textinfo{
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    text-align: center;
+    opacity: 0.65;
+    margin: 0 45px 0 45px;
+    
+}
+.processbox__button{
+    font-family: 'Open Sans';
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    
+}
+.processbox__button button{
+    width: 228px;
+    height: 55px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 14px 0px rgba(20,20,21,0.05);
+    border-radius: 27px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #000000;
+}
+.list1{
+    background-color: #4eb2f7 ;
+}
+.list2{
+    background-color: #c049f8;
+}
+.list3{
+    background-color: #817eff;
+}
+.list4{
+    background-color: #f74770;
+}

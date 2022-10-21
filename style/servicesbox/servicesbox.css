@@ -1,0 +1,68 @@
+.servicesbox{
+    display: flex;
+    border-color:#ffffff;
+    margin: 145px 0 205px 0;
+}
+.servicesbox__welcometext{
+    text-align: center;
+    margin: 0 0 130px 0 ;
+}
+
+.servicesbox__text p{
+    margin-top: 10px;
+}
+.servicesbox__row{
+    display: flex;
+
+}
+.servicesbox__tabs{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    width: 104px;
+    height: 92px;
+    background-color: #fbfbfb;
+    box-shadow: 0px 0px 1px 0px rgba(20,20,21,0.14);
+    border-radius: 2px;
+}
+.active{
+    background-color: #ffffff;
+}
+.servicesbox__description{
+ margin: 0 80px 0 127px;
+}
+.description__title{
+    opacity: 0.74;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
+    color: #000000;
+}
+.description__line{
+    width: 57px;
+    height: 3px;
+    background-color: #ff5c36;
+}
+.description__text p{
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 20px;
+}
+.description__button{
+    margin-top: 40px;
+}
+.description__button button{
+    width: 240px;
+    height: 57px;
+    background-color: #ffffff;
+    border: 1px solid rgba(1,2,2,0.06);
+    box-shadow: 2px 11px 20px -1px rgba(20,20,21,0.07);
+    border-radius: 27px;
+}
+.servicesbox__oclock{
+    width: 361px;
+    height: 403px;
+}

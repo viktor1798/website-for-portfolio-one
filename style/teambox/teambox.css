@@ -1,0 +1,134 @@
+.teambox{
+    background-color: #fbfbfb;
+    height: 964px;
+}
+.teambox__welcometext{
+    text-align: center;
+    margin: 140px 0 125px 0;
+}
+.teambox__text{
+    margin-top: 10px;
+}
+.teambox__colum{
+    display: flex;
+    justify-content: space-between;
+}
+.teambox__profile{
+    width: 360px;
+    height: 445px;
+}
+.profile1{
+    background-color: #ff5c36;
+    box-shadow: 0px 0px 2px 0px rgba(20,20,21,0.6);
+}
+.profile2{
+    background-color: #fff3f0;
+    box-shadow: 0px 0px 49px 0px rgba(20,20,21,0.1);
+}
+.teambox__name{
+    position: relative;
+    top: 400px;
+    left: 50px;
+    width: 262px;
+    height: 95px;
+    background-color: #ffffff;
+    box-shadow: 1px 6px 16px 0px rgba(20,20,21,0.07);
+    border-radius: 2px;
+    text-align: center;
+}
+.name__item{
+    opacity: 0.7;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #000000;
+}
+.name__position{
+    opacity: 0.7;
+    font-size: 15.7px;
+    line-height: 47px;
+    font-weight: 300;
+    color: #000000;
+}
+.teambox__nameprofile2{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    
+}
+
+.nameprofile2__item{
+    opacity: 0.85;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #202020;
+}
+.nameprofile2__position{
+    opacity: 0.9;
+    font-size: 16.7px;
+    line-height: 47px;
+    font-weight: 300;
+    color: #ff724c;
+}
+.nameprofile2__socialnetwork{
+    opacity: 0.3;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #fff3f0;
+}
+.teambox__skils{
+    text-align: center;
+    margin-top: 170px; ;
+}
+.teambox__design{
+    margin-bottom: 10px;
+}
+.design__title{
+   
+    font-size: 10.9px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #000000;
+}
+.design__line{
+    margin: 0 auto;
+    width: 151px;
+    height: 4px;
+    background: linear-gradient(to right, #ff6e47 81%, #817f7e 19%);
+    border-radius: 1.5px;
+}
+.teambox__engl{
+    margin-bottom: 10px;
+}
+.engl__title{
+  
+    font-size: 10.9px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #000000;
+}
+.engl__line{
+    margin: 0 auto;
+    width: 151px;
+    height: 4px;
+    background: linear-gradient(to right, #ff6e47 72%, #817f7e 28%);
+    border-radius: 1.5px;
+}
+.teambox__communication{
+    margin-bottom: 10px;
+}
+.communication__title{
+    font-size: 10.9px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #000000;
+}
+.communication__line{
+    margin: 0 auto;
+    width: 151px;
+    height: 4px;
+    background: linear-gradient(to right, #ff6e47 78%, #817f7e 22%);
+    border-radius: 1.5px;
+}
